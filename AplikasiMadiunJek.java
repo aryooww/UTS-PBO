@@ -66,7 +66,7 @@ class MadiunMobil extends LayananTransportasi {
 
     @Override
     public void prosesTransaksi() {
-        System.out.println("=== Transaksi SETYO ARYO WIGUNO - 254311016 ===");
+        System.out.println("Transaksi SETYO ARYO WIGUNO - 254311016");
 
         double total = hitungTarif();
 
@@ -78,7 +78,7 @@ class MadiunMobil extends LayananTransportasi {
             System.out.println("Total Bayar: Rp " + total);
             System.out.println("Sisa Saldo: Rp " + saldoUser);
         } else {
-            System.out.println("Gagal: Saldo tidak mencukupi untuk perjalanan ini!");
+            System.out.println("Saldo tidak mencukupi untuk melakukan transaksi");
         }
     }
 }
